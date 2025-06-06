@@ -1,6 +1,7 @@
-import StarbucksInput from './StarbucksInput.js';
+import StarbucksInput from './index.jsx';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { vi } from 'vitest';
 
 describe.skip('starbucks input tests', () => {
   test('it renders input component', async () => {
@@ -23,7 +24,7 @@ describe.skip('starbucks input tests', () => {
     const nextChar = 'u';
     const expectedString = `${currentVal}${nextChar}`;
 
-    const onChangeStub = jest.fn();
+    const onChangeStub = vi.fn();
 
     // Act
     render(<StarbucksInput name={elName} value={currentVal} onChange={onChangeStub} />);
