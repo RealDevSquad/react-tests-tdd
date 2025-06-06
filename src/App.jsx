@@ -1,6 +1,11 @@
 import './App.css';
 import StarbucksInput from './components/starbucks-input';
 
+/**
+ * Renders the main application layout with a header, instructional text, a link to React documentation, and the {@link StarbucksInput} component.
+ *
+ * @returns {JSX.Element} The root JSX element for the application.
+ */
 function App() {
   return (
     <div className="App">
