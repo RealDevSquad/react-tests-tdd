@@ -7,5 +7,12 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: ['./src/setupTests.js'],
+    coverage: {
+      exclude: [
+        'src/setupTests.js',
+        'src/reportWebVitals.js',
+        '**/*.config.js',
+      ]
+    }
   },
 }) 

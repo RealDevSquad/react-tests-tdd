@@ -6,11 +6,6 @@ export default defineConfig({
   root: './',
   build: {
     outDir: 'dist',
-    rollupOptions: {
-      input: {
-        main: '/src/index.jsx'
-      }
-    }
   },
   server: {
     port: 5173,
