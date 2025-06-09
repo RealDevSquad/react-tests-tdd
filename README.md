@@ -44,9 +44,9 @@ src/
 
 1. Install dependencies:
 
-   ```bash
-   pnpm i
-   ```
+  ```bash
+  pnpm i
+  ```
 
 2. Run tests in watch mode:
 
