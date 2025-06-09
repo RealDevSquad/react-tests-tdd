@@ -62,11 +62,6 @@ src/
   pnpm test:ui
   ```
 
-### Milestone `Grande`
-
-- [ ] Create an OTP component
-- [ ] Upon successful email/name entry, get to the OTP step
-
 ## 🎯 Milestones
 
 ### Tall
